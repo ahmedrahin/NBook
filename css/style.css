@@ -508,7 +508,7 @@ header::before {
 }
 .owl-carousel .owl-item img {
     display: block;
-    width: 93%;
+    width: 88%;
     margin: 0 auto;
 }
 
@@ -1019,10 +1019,10 @@ footer p {
     .owl-theme .owl-nav {top: 267px ;right: 36%;}
     .owl-theme .owl-dots {top: -25px;left: 35.5%;}
     .owl-theme .owl-dots .owl-dot span {width: 8px;height: 8px;margin: 5px 5px;}
-    .owl-prev , .owl-next {font-size: 30px !important; font-weight: 700px !important;width: 30px !important;height: 30px !important;line-height: 30px !important;}
+    .owl-prev , .owl-next {font-size: 33px !important; font-weight: 700 !important;width: 33px !important;height: 33px !important;line-height: 33px !important;}
     .owl-carousel .owl-item img {height: 170px;}
     .owl-carousel .owl-stage-outer {height: 300px !important;margin-top: 0 !important;}
-    .owl-carousel .owl-item img {width: 105%;}
+    .owl-carousel .owl-item img {width: 88%;}
     
 
     .counter-section {padding: 30px 0;margin:0;}
