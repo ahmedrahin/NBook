@@ -1,5 +1,40 @@
 
 
+$('.nav-1').click(function(){
+  $(this).addClass('active')
+  $('.nav-2').removeClass('active')
+  $('.nav-3').removeClass('active')
+  $('.nav-4').removeClass('active')
+  $('.nav-5').removeClass('active')
+});
+$('.nav-2').click(function(){
+  $(this).addClass('active')
+  $('.nav-1').removeClass('active')
+  $('.nav-3').removeClass('active')
+  $('.nav-4').removeClass('active')
+  $('.nav-5').removeClass('active')
+});
+$('.nav-3').click(function(){
+  $(this).addClass('active')
+  $('.nav-1').removeClass('active')
+  $('.nav-2').removeClass('active')
+  $('.nav-4').removeClass('active')
+  $('.nav-5').removeClass('active')
+});
+$('.nav-4').click(function(){
+  $(this).addClass('active')
+  $('.nav-1').removeClass('active')
+  $('.nav-2').removeClass('active')
+  $('.nav-3').removeClass('active')
+  $('.nav-5').removeClass('active')
+});
+$('.nav-5').click(function(){
+  $(this).addClass('active')
+  $('.nav-1').removeClass('active')
+  $('.nav-2').removeClass('active')
+  $('.nav-3').removeClass('active')
+  $('.nav-4').removeClass('active')
+});
 
 
 $(".owl-carousel").owlCarousel({
